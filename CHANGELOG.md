@@ -6,3 +6,6 @@
 
 ## 1.2.0
 - adapter for TiSO Sweeper turnstile (C-01)
+
+## 1.2.1
+- fix: duplicate pass events after reconnect (NFR-09)
