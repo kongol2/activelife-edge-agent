@@ -1,0 +1,10 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "build agent package for ${GITHUB_REF_NAME} (stub)"
